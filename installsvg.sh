@@ -46,7 +46,7 @@ svglogin(){
 }
 
 reparar(){
-    bash <(curl https://raw.githubusercontent.com/amgeekz/pterodactylthemes/main/reparar.sh)
+    bash <(curl https://raw.githubusercontent.com/Akamaru69/pterodactylsvg/main/reparar.sh)
 }
 
 restaurarbackup(){
