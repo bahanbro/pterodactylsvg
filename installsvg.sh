@@ -13,7 +13,7 @@ installsvg(){
     echo -e "${CYAN}Installing SVG Icon Login..."
     cd /var/www/pterodactyl
     rm -r pterodactylsvg
-    git clone https://github.com/Akamaru69/pterodactylsvg.git
+    git clone https://github.com/bahanbro/pterodactylsvg.git
     cd pterodactylsvg
     rm /var/www/pterodactyl/public/assets/svgs/pterodactyl.svg
     mv pterodactyl.svg /var/www/pterodactyl/public/assets/svgs/
@@ -46,7 +46,7 @@ svglogin(){
 }
 
 reparar(){
-    bash <(curl https://raw.githubusercontent.com/Akamaru69/pterodactylsvg/main/reparar.sh)
+    bash <(curl https://raw.githubusercontent.com/bahanbro/pterodactylsvg/main/reparar.sh)
 }
 
 restaurarbackup(){
